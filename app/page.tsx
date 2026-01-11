@@ -1,6 +1,6 @@
 export default function Home() {
   // REPLACE WITH YOUR ACTUAL GUMROAD LINK
-  const gumroadHref = "https://your-gumroad-link-here"; 
+  const gumroadHref = "https://nextstepconsulting.gumroad.com/l/kmver"; 
   const year = new Date().getFullYear();
 
   return (
