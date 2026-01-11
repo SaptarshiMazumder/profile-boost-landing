@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* --- FACEBOOK PIXEL CODE --- */}
+        {/* --- FACEBOOK PIXEL START --- */}
         <Script
           id="fb-pixel"
           strategy="afterInteractive"
@@ -41,25 +41,25 @@ export default function RootLayout({
               t.src=v;s=b.getElementsByTagName(e)[0];
               s.parentNode.insertBefore(t,s)}(window, document,'script',
               'https://connect.facebook.net/en_US/fbevents.js');
-              fbq('init', '1584416289419857'); 
+              fbq('init', '1584416289419857');
               fbq('track', 'PageView');
             `,
           }}
         />
-        {/* --- END FACEBOOK PIXEL CODE --- */}
+        {/* --- FACEBOOK PIXEL END --- */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
         
-        {/* NOSCRIPT FALLBACK */}
+        {/* NOSCRIPT FALLBACK (Corrected for Next.js) */}
         <noscript>
           <img
             height="1"
             width="1"
             style={{ display: "none" }}
-            src={`https://www.facebook.com/tr?id=1584416289419857&ev=PageView&noscript=1`}
+            src="https://www.facebook.com/tr?id=1584416289419857&ev=PageView&noscript=1"
             alt=""
           />
         </noscript>
