@@ -139,8 +139,15 @@ export default function Home() {
               <li className="flex items-start gap-3">
                 <FancyCheckIcon />
                 <div>
-                  Take your profile from <strong>0-1 likes</strong> to{" "}
-                  <strong>10+ likes </strong>per day.
+                  Take your profile from{" "}
+                  <span className="inline-flex items-center rounded-md bg-pink-500/10 px-2 py-0.5 align-baseline text-xl font-extrabold leading-none text-pink-600 ring-1 ring-pink-500/20 sm:text-2xl">
+                    0-1 likes
+                  </span>{" "}
+                  to{" "}
+                  <span className="inline-flex items-center rounded-md bg-pink-500/10 px-2 py-0.5 align-baseline text-xl font-extrabold leading-none text-pink-600 ring-1 ring-pink-500/20 sm:text-2xl">
+                    10+ likes
+                  </span>{" "}
+                  per day.
                 </div>
               </li>
             </ul>
