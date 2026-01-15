@@ -118,7 +118,7 @@ export default function Home() {
                             <p className="text-sm font-medium text-slate-800">
                                 This strategy has almost nothing to do with your looks or your photos. 
                                 <br /><br />
-                                It&apos;s a strategy to make the algorithm work in <strong className="text-slate-800">your favor</strong> by fixing your profile scoreT.
+                                It&apos;s a strategy to make the algorithm work in <strong className="text-slate-800">your favor</strong> by fixing your profile score.
                             </p>
                         </div>
                     </div>
