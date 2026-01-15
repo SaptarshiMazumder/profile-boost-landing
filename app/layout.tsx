@@ -48,9 +48,7 @@ export default function RootLayout({
         />
         {/* --- FACEBOOK PIXEL END --- */}
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className="antialiased">
         {children}
         
         {/* NOSCRIPT FALLBACK (Corrected for Next.js) */}
