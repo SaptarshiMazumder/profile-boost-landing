@@ -331,7 +331,7 @@ export default function Home() {
       </div>
 
       <script async src="http://127.0.0.1:5000/widget/widget.js"
-        data-bot-key="pk_..."
+        data-bot-key="pk_3OK_ltSG0SQAk4x0k1avlJ6S0OXJXEhx"
         data-api-base="http://127.0.0.1:5000"></script>
     </main>
   );
