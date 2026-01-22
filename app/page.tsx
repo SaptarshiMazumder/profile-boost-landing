@@ -2,7 +2,7 @@ import { ReviewCarousel } from "./components/ReviewCarousel";
 
 export default function Home() {
   // REPLACE WITH YOUR ACTUAL GUMROAD LINK
-  const gumroadHref = "https://nextstepconsulting.gumroad.com/l/kmver"; 
+  const gumroadHref = "https://nextstepconsulting.gumroad.com/l/kmver";
   const year = new Date().getFullYear();
 
   const reviewImages = [
@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <main className="relative isolate min-h-screen overflow-hidden bg-[#f7f7fb] text-slate-950 selection:bg-pink-500/25">
-      
+
       {/* --- BACKGROUND FX (Soft Nebula) --- */}
       <div className="fixed inset-0 -z-10">
         <div className="absolute top-[-10%] left-[-10%] h-[600px] w-[600px] rounded-full bg-purple-400/25 blur-[120px]" />
@@ -28,10 +28,10 @@ export default function Home() {
 
         {/* HERO */}
         <section className="mt-12 grid gap-12 lg:mt-16 lg:grid-cols-12 lg:items-start">
-          
+
           {/* LEFT CONTENT */}
           <div className="lg:col-span-12 relative z-10">
-            
+
             {/* 1. The "Not Your Fault" Pill */}
             <div className="inline-flex items-center gap-3 rounded-full border border-pink-200/80 bg-white/80 px-4 py-2 shadow-sm backdrop-blur">
               <span className="inline-flex h-2.5 w-2.5 rounded-full bg-pink-500 shadow-[0_0_0_6px_rgba(236,72,153,0.14)]" />
@@ -55,7 +55,7 @@ export default function Home() {
                 <strong className="text-slate-800 decoration-pink-500 underline underline-offset-4 decoration-2">
                   barely being shown
                 </strong>
-                . 
+                .
                 <br /><br />Data shows that:
               </p>
 
@@ -87,7 +87,7 @@ export default function Home() {
               <div className="rounded-2xl border border-slate-200 bg-white/70 px-5 py-4 text-base leading-relaxed text-slate-700 shadow-sm">
                 <span className="font-bold text-slate-800">What you need to do</span>{" "}
                 is fix your <strong className="text-slate-800">Profile score</strong> , so that it&apos;s visible to everyone and is on <strong className="text-slate-800"> top of the stack</strong>!{" "}
-                
+
               </div>
             </div>
 
@@ -109,30 +109,30 @@ export default function Home() {
 
             {/* Critical Insight */}
             <div className="mt-8 group relative overflow-hidden rounded-2xl border border-pink-200/80 bg-white/70 p-5 shadow-sm transition hover:border-pink-300">
-                    <div className="flex gap-4">
-                        <div className="shrink-0 pt-1 text-pink-600">
-                           <WarningIcon />
-                        </div>
-                        <div>
-                            <div className="text-xs font-bold uppercase tracking-wider text-pink-700 mb-1">Critical Insight</div>
-                            <p className="text-sm font-medium text-slate-800">
-                                This strategy has almost nothing to do with your looks or your photos. 
-                                <br /><br />
-                                It&apos;s a strategy to make the algorithm work in <strong className="text-slate-800">your favor</strong> by fixing your profile score.
-                            </p>
-                        </div>
-                    </div>
+              <div className="flex gap-4">
+                <div className="shrink-0 pt-1 text-pink-600">
+                  <WarningIcon />
+                </div>
+                <div>
+                  <div className="text-xs font-bold uppercase tracking-wider text-pink-700 mb-1">Critical Insight</div>
+                  <p className="text-sm font-medium text-slate-800">
+                    This strategy has almost nothing to do with your looks or your photos.
+                    <br /><br />
+                    It&apos;s a strategy to make the algorithm work in <strong className="text-slate-800">your favor</strong> by fixing your profile score.
+                  </p>
+                </div>
+              </div>
             </div>
             <span className="text-lg leading-relaxed text-slate-700 block mt-6">
-                This protocol is a <strong>step by step guide</strong> designed to{":"}
+              This protocol is a <strong>step by step guide</strong> designed to{":"}
 
             </span>
             <ul className="mt-6 max-w-xl space-y-3 text-lg leading-relaxed text-slate-700">
               <li className="flex items-start gap-3">
-                
+
                 <FancyCheckIcon />
                 <div>
-                  
+
                   <strong>Improve profile visibility</strong>
                 </div>
               </li>
@@ -182,56 +182,56 @@ export default function Home() {
 
         {/* DETAILS SECTION */}
         <section className="mt-32 rounded-[2.5rem] border border-slate-200 bg-white/2 p-8 lg:p-16 relative overflow-hidden">
-            <div className="absolute top-0 right-0 -mr-20 -mt-20 h-96 w-96 rounded-full bg-purple-400/15 blur-[80px]"></div>
-            
-            <h2 className="text-3xl font-bold mb-10 relative z-10">What this is <span className="text-slate-500">(and isn&apos;t)</span></h2>
-            
-            <div className="grid gap-12 lg:grid-cols-2 relative z-10">
-                <div className="space-y-6">
-                    <p className="text-lg text-slate-700 leading-relaxed">
-                        This guide is not theory or random “tips.” <br />
-                        It’s a <strong className="text-slate-800">step-by-step manual</strong> — I walk you through exactly what to do, in order.
-                    </p>
-                    
-                    <ul className="space-y-4 mt-6">
-                        <li className="flex items-start gap-4 rounded-xl bg-emerald-500/6 border border-emerald-500/15 p-4 transition hover:bg-emerald-500/10">
-                             <span className="text-xl">✅</span>
-                             <div className="text-sm text-slate-700">
-                                <span className="block text-emerald-600 font-bold mb-1 uppercase text-xs tracking-wider">What you get</span> 
-                                A step by step checklist guide you can follow in order.
-                             </div>
-                        </li>
-                        <li className="flex items-start gap-4 rounded-xl bg-rose-500/6 border border-rose-500/15 p-4 transition hover:bg-rose-500/10">
-                             <span className="text-xl">🚫</span>
-                             <div className="text-sm text-slate-700">
-                                <span className="block text-rose-600 font-bold mb-1 uppercase text-xs tracking-wider">What this isn&apos;t</span> 
-                               Theory, “be confident,” or generic advice to &quot;fix your bio&quot;.
-                             </div>
-                        </li>
-                    </ul>
-                </div>
+          <div className="absolute top-0 right-0 -mr-20 -mt-20 h-96 w-96 rounded-full bg-purple-400/15 blur-[80px]"></div>
 
-                {/* WHO THIS IS FOR */}
-                <div className="rounded-3xl bg-white p-8 border border-slate-200 shadow-[0_22px_70px_rgba(15,23,42,0.10)]">
-                    <h3 className="flex items-center gap-3 font-bold text-slate-950 mb-6">
-                        <span className="flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 bg-slate-50 text-slate-950 text-lg shadow-sm">
-                          🎯
-                        </span>
-                        WHO THIS IS FOR
-                    </h3>
-                    <ul className="space-y-5">
-                        <CheckItem text="Guys who have 0 matches or very few matches." />
-                        <CheckItem text="Guys who want to quickly increase their visibility." />
-                        <CheckItem text='Guys who think &quot;My looks are not good enough&quot; (※ This guide was built specifically for you).' />
-                    </ul>
-                </div>
+          <h2 className="text-3xl font-bold mb-10 relative z-10">What this is <span className="text-slate-500">(and isn&apos;t)</span></h2>
+
+          <div className="grid gap-12 lg:grid-cols-2 relative z-10">
+            <div className="space-y-6">
+              <p className="text-lg text-slate-700 leading-relaxed">
+                This guide is not theory or random “tips.” <br />
+                It’s a <strong className="text-slate-800">step-by-step manual</strong> — I walk you through exactly what to do, in order.
+              </p>
+
+              <ul className="space-y-4 mt-6">
+                <li className="flex items-start gap-4 rounded-xl bg-emerald-500/6 border border-emerald-500/15 p-4 transition hover:bg-emerald-500/10">
+                  <span className="text-xl">✅</span>
+                  <div className="text-sm text-slate-700">
+                    <span className="block text-emerald-600 font-bold mb-1 uppercase text-xs tracking-wider">What you get</span>
+                    A step by step checklist guide you can follow in order.
+                  </div>
+                </li>
+                <li className="flex items-start gap-4 rounded-xl bg-rose-500/6 border border-rose-500/15 p-4 transition hover:bg-rose-500/10">
+                  <span className="text-xl">🚫</span>
+                  <div className="text-sm text-slate-700">
+                    <span className="block text-rose-600 font-bold mb-1 uppercase text-xs tracking-wider">What this isn&apos;t</span>
+                    Theory, “be confident,” or generic advice to &quot;fix your bio&quot;.
+                  </div>
+                </li>
+              </ul>
             </div>
-            
-            <div className="mt-8 text-center">
-                 <p className="inline-block px-4 py-2 rounded-lg bg-white/70 text-xs text-slate-600 italic border border-slate-200">
-                    Note: You do NOT need to pay for Tinder Gold or Platinum to execute this protocol.
-                </p>
+
+            {/* WHO THIS IS FOR */}
+            <div className="rounded-3xl bg-white p-8 border border-slate-200 shadow-[0_22px_70px_rgba(15,23,42,0.10)]">
+              <h3 className="flex items-center gap-3 font-bold text-slate-950 mb-6">
+                <span className="flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 bg-slate-50 text-slate-950 text-lg shadow-sm">
+                  🎯
+                </span>
+                WHO THIS IS FOR
+              </h3>
+              <ul className="space-y-5">
+                <CheckItem text="Guys who have 0 matches or very few matches." />
+                <CheckItem text="Guys who want to quickly increase their visibility." />
+                <CheckItem text='Guys who think &quot;My looks are not good enough&quot; (※ This guide was built specifically for you).' />
+              </ul>
             </div>
+          </div>
+
+          <div className="mt-8 text-center">
+            <p className="inline-block px-4 py-2 rounded-lg bg-white/70 text-xs text-slate-600 italic border border-slate-200">
+              Note: You do NOT need to pay for Tinder Gold or Platinum to execute this protocol.
+            </p>
+          </div>
         </section>
         <section>
           <div className="grid gap-12 lg:grid-cols-2 relative z-10 mt-8">
@@ -257,7 +257,7 @@ export default function Home() {
         {/* REVIEWS */}
         <section id="reviews" className="mt-16">
           <SectionHeader
-            
+
             title="Reviews"
           />
 
@@ -291,44 +291,48 @@ export default function Home() {
 
         {/* FINAL CTA */}
         <section id="final-cta" className="mt-32 mb-12 text-center scroll-mt-24">
-            <h2 className="text-4xl font-black tracking-tight mb-10">Don&apos;t waste your time. Get the most out of Tinder today!</h2>
-            <a
-                href={gumroadHref}
-                className="group relative inline-flex h-20 items-center justify-center overflow-hidden rounded-full bg-slate-950 px-16 text-xl font-bold text-white shadow-[0_18px_70px_rgba(15,23,42,0.22)] transition transform hover:scale-105 hover:shadow-[0_24px_90px_rgba(15,23,42,0.28)]"
-            >
-                <span className="relative z-10">Get Instant Access</span>
-                <div className="absolute inset-0 -z-10 bg-linear-to-r from-slate-900 to-slate-800 opacity-0 transition group-hover:opacity-100" />
-            </a>
-            <p className="mt-8 text-xs font-medium uppercase tracking-widest text-slate-500">
-               Secured by Gumroad • Instant Download
-            </p>
+          <h2 className="text-4xl font-black tracking-tight mb-10">Don&apos;t waste your time. Get the most out of Tinder today!</h2>
+          <a
+            href={gumroadHref}
+            className="group relative inline-flex h-20 items-center justify-center overflow-hidden rounded-full bg-slate-950 px-16 text-xl font-bold text-white shadow-[0_18px_70px_rgba(15,23,42,0.22)] transition transform hover:scale-105 hover:shadow-[0_24px_90px_rgba(15,23,42,0.28)]"
+          >
+            <span className="relative z-10">Get Instant Access</span>
+            <div className="absolute inset-0 -z-10 bg-linear-to-r from-slate-900 to-slate-800 opacity-0 transition group-hover:opacity-100" />
+          </a>
+          <p className="mt-8 text-xs font-medium uppercase tracking-widest text-slate-500">
+            Secured by Gumroad • Instant Download
+          </p>
         </section>
 
         {/* --- FOOTER WITH REQUIRED LEGAL LINKS --- */}
         <footer className="border-t border-slate-200 pt-12 pb-8 text-center relative z-10">
-            <div className="flex justify-center gap-6 mb-4 text-xs font-medium text-slate-600">
-                <a 
-                  href="https://gumroad.com/privacy" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="hover:text-slate-950 transition"
-                >
-                  Privacy Policy
-                </a>
-                <a 
-                  href="https://gumroad.com/terms" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="hover:text-slate-950 transition"
-                >
-                  Terms of Service
-                </a>
-            </div>
-            <p className="text-xs text-slate-500">
-               © {year} Digital Solutions. Not affiliated with Tinder. Results vary.
-            </p>
+          <div className="flex justify-center gap-6 mb-4 text-xs font-medium text-slate-600">
+            <a
+              href="https://gumroad.com/privacy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-slate-950 transition"
+            >
+              Privacy Policy
+            </a>
+            <a
+              href="https://gumroad.com/terms"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-slate-950 transition"
+            >
+              Terms of Service
+            </a>
+          </div>
+          <p className="text-xs text-slate-500">
+            © {year} Digital Solutions. Not affiliated with Tinder. Results vary.
+          </p>
         </footer>
       </div>
+
+      <script async src="http://127.0.0.1:5000/widget/widget.js"
+        data-bot-key="pk_..."
+        data-api-base="http://127.0.0.1:5000"></script>
     </main>
   );
 }
@@ -336,14 +340,14 @@ export default function Home() {
 // --- SUBCOMPONENTS ---
 
 function CheckItem({ text }: { text: string }) {
-    return (
-        <div className="flex items-start gap-4 group">
-            <div className="mt-1 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-linear-to-br from-green-500/15 to-emerald-500/15 border border-emerald-600/30 text-emerald-700 transition group-hover:bg-emerald-500/20 group-hover:border-emerald-500/40 group-hover:shadow-[0_0_10px_rgba(16,185,129,0.20)]">
-                <svg viewBox="0 0 12 12" className="h-2.5 w-2.5" fill="none" stroke="currentColor" strokeWidth="3"><path d="M10 3L4.5 8.5L2 6" strokeLinecap="round" strokeLinejoin="round"/></svg>
-            </div>
-            <span className="text-sm font-medium text-slate-700 group-hover:text-slate-950 transition">{text}</span>
-        </div>
-    )
+  return (
+    <div className="flex items-start gap-4 group">
+      <div className="mt-1 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-linear-to-br from-green-500/15 to-emerald-500/15 border border-emerald-600/30 text-emerald-700 transition group-hover:bg-emerald-500/20 group-hover:border-emerald-500/40 group-hover:shadow-[0_0_10px_rgba(16,185,129,0.20)]">
+        <svg viewBox="0 0 12 12" className="h-2.5 w-2.5" fill="none" stroke="currentColor" strokeWidth="3"><path d="M10 3L4.5 8.5L2 6" strokeLinecap="round" strokeLinejoin="round" /></svg>
+      </div>
+      <span className="text-sm font-medium text-slate-700 group-hover:text-slate-950 transition">{text}</span>
+    </div>
+  )
 }
 
 function FancyCheckIcon() {
@@ -385,9 +389,9 @@ function FaqItem(props: { q: string; a: string }) {
 }
 
 function WarningIcon() {
-    return (
-        <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" strokeLinecap="round" strokeLinejoin="round"/></svg>
-    )
+  return (
+    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" strokeLinecap="round" strokeLinejoin="round" /></svg>
+  )
 }
 
 function SectionHeader(props: {
